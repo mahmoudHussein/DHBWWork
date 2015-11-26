@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AML SYSTEM "ARIS-Export.dtd" [
+	<!ENTITY LocaleId.USen "1033">
+	<!ENTITY Codepage.USen "1252">
+]>
+
+<!-- exported with version 7.2.4.843889 -->
+<AML>
+	<Header-Info
+		CreateTime="12:22:44.583"
+		CreateDate="05-16-2014"
+		DatabaseName="branchingTrials"
+		UserName="system"
+		ArisExeVersion="71"
+	/>
+	<Language LocaleId="&LocaleId.USen;" Codepage="&Codepage.USen;">
+		<LogFont
+			FaceName="Arial"
+			Height="-13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</Language>
+	<Database>
+		<AttrDef AttrDef.Type="AT_NAME_LGINDEP">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="branchingTrials"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+			<AttrValue LocaleId="&LocaleId.USen;">12:05:57.000;05/15/2014</AttrValue>
+		</AttrDef>
+		<AttrDef AttrDef.Type="AT_CREATOR">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="DbAdmin"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+	</Database>
+	<LDAPSettings>
+	</LDAPSettings>
+	<FontStyleSheet FontSS.ID="FontSS.7-----4-----c--">
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Standard"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-10"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.5g----4-----c--">
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Standard(1)"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-10"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<Group Group.ID="Group.Root">
+		<Group Group.ID="Group.2c----4-----k--">
+			<GUID>62689dc0-dc29-11e3-12bb-0c8bfd289c54</GUID>
+			<AttrDef AttrDef.Type="AT_NAME">
+				<AttrValue LocaleId="&LocaleId.USen;">
+					<StyledElement>
+						<Paragraph Alignment="UNDEFINED" Indent="0"/>
+							<StyledElement>
+								<PlainText TextValue="purchase"/>
+							</StyledElement>
+					</StyledElement>
+				</AttrValue>
+			</AttrDef>
+			<ObjDef ObjDef.ID="ObjDef.3u----4-----p--"
+				TypeNum="OT_BPMN_LANE"
+				ToCxnDefs.IdRefs="CxnDef.56----4-----q-- CxnDef.8i----4-----q-- CxnDef.8k----4-----q-- CxnDef.5d----4-----q-- "
+				SymbolNum="ST_BPMN_LANE_1">
+				<GUID>cae78502-9ed5-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="Requester"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">11:05:53.000;02/26/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">09:55:57.000;05/09/2014</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.5f----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3o----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.12----6-----p--"
+				TypeNum="OT_BPMN_ANNOTATION"
+				SymbolNum="ST_BPMN_ANNOTATION_1"
+				LastUpdated="10:22:03.000;05/16/2014">
+				<GUID>0e48680d-dce3-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Container/>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="duration:1819"/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="system: ERP "/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="system: CRM"/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="priority: 2"/>
+										</StyledElement>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.1f----6-----q--"
+					CxnDef.Type="CT_BPMN_IS_ASSOCIATED"
+					ToObjDef.IdRef="ObjDef.s-----6-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.2q----4-----p--"
+				TypeNum="OT_BPMN_LANE"
+				ToCxnDefs.IdRefs="CxnDef.y-----5-----q--  CxnDef.5b----4-----q--"
+				SymbolNum="ST_BPMN_LANE_1">
+				<GUID>cae78505-9ed5-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="Requester Manager"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">11:05:53.000;02/26/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">09:55:57.000;05/09/2014</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.5a----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3o----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.7q----4-----p--"
+				TypeNum="OT_RULE"
+				SymbolNum="ST_BPMN_RULE_1"
+				LastUpdated="12:15:28.000;05/15/2014">
+				<GUID>3445be90-dc2a-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">12:15:28.000;05/15/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">12:15:28.000;05/15/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.7v----4-----q--"
+					CxnDef.Type="CT_ACTIV_1"
+					ToObjDef.IdRef="ObjDef.40----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.33----4-----p--"
+				TypeNum="OT_FUNC"
+				ToCxnDefs.IdRefs="    CxnDef.5e----4-----q-- CxnDef.51----4-----q--"
+				SymbolNum="ST_BPMN_USER_TASK">
+				<GUID>45c18cd7-9e0e-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">12:32:40.000;02/25/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="purchasing order requesting"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_ACTIVITY_TYPE">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_TASK</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">11:18:41.000;05/05/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_TASK_TYPE_2">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_TASK_TYPE_USER</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.55----4-----q--"
+					CxnDef.Type="CT_IS_PREDEC_OF_1"
+					ToObjDef.IdRef="ObjDef.40----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.5d----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3u----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.5c----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3o----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.8v----4-----q--"
+					CxnDef.Type="CT_LEADS_TO_1"
+					ToObjDef.IdRef="ObjDef.7w----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.b-----6-----p--"
+				TypeNum="OT_EVT"
+				SymbolNum="ST_BPMN_START_EVENT"
+				LastUpdated="10:22:03.000;05/16/2014">
+				<GUID>0e486805-dce3-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_BPMN_EVENT_DEFINITION">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_NONE_1</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:03.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:02.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="Start event"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.1b----6-----q--"
+					CxnDef.Type="CT_ACTIV_1"
+					ToObjDef.IdRef="ObjDef.s-----6-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.c-----5-----p--"
+				TypeNum="OT_FUNC"
+				LinkedModels.IdRefs="Model.0-----6-----u--"
+				ToCxnDefs.IdRefs=" CxnDef.i-----5-----q-- CxnDef.n-----5-----q-- "
+				SymbolNum="ST_BPMN_SUBPROCESS"
+				LastUpdated="09:54:26.000;05/16/2014">
+				<GUID>c264e76b-dcde-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">09:54:26.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">09:53:07.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_SUBPROCESS_TYPE">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_SUB_PROCESS</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="purchase1"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_ACTIVITY_TYPE">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_SUB_PROCESS</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.y-----5-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.2q----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.1k----5-----q--"
+					CxnDef.Type="CT_CRT_1"
+					ToObjDef.IdRef="ObjDef.3b----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.3o----4-----p--"
+				TypeNum="OT_BPMN_LANE"
+				ToCxnDefs.IdRefs="CxnDef.57----4-----q-- CxnDef.5a----4-----q-- CxnDef.5c----4-----q-- CxnDef.5f----4-----q--"
+				SymbolNum="ST_BPMN_LANE_1">
+				<GUID>45c18cda-9e0e-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">14:23:33.000;02/25/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">14:23:33.000;02/25/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="the user"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.4m----4-----p--"
+				TypeNum="OT_BPMN_ANNOTATION"
+				SymbolNum="ST_BPMN_ANNOTATION_1">
+				<GUID>45c18cde-9e0e-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Container/>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="duration:1500"/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="system: ERP "/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="system: Application Server"/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="priority: 1 "/>
+										</StyledElement>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.5e----4-----q--"
+					CxnDef.Type="CT_BPMN_IS_ASSOCIATED"
+					ToObjDef.IdRef="ObjDef.33----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.7w----4-----p--"
+				TypeNum="OT_RULE"
+				ToCxnDefs.IdRefs="   CxnDef.8v----4-----q--"
+				SymbolNum="ST_BPMN_RULE_1"
+				LastUpdated="12:53:28.000;05/15/2014">
+				<GUID>3445e5ae-dc2a-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">12:53:28.000;05/15/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">12:35:13.000;05/15/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="have the purchase quantity?"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.i-----5-----q--"
+					CxnDef.Type="CT_ACTIV_1"
+					ToObjDef.IdRef="ObjDef.c-----5-----p--">
+					<AttrDef AttrDef.Type="AT_PROB">
+						<AttrValue LocaleId="&LocaleId.USen;">0.3</AttrValue>
+					</AttrDef>
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.8k----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3u----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.8n----4-----q--"
+					CxnDef.Type="CT_ACTIV_1"
+					ToObjDef.IdRef="ObjDef.8c----4-----p--">
+					<AttrDef AttrDef.Type="AT_PROB">
+						<AttrValue LocaleId="&LocaleId.USen;">0.7</AttrValue>
+					</AttrDef>
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.3b----4-----p--"
+				TypeNum="OT_EVT"
+				ToCxnDefs.IdRefs=" CxnDef.1k----5-----q--"
+				SymbolNum="ST_BPMN_END_EVENT">
+				<GUID>34ff8ca4-b662-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_EVENT_DEFINITION">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_NONE_1</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">10:19:10.000;03/28/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">10:19:09.000;03/28/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="End event"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.5b----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.2q----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.k-----6-----p--"
+				TypeNum="OT_EVT"
+				ToCxnDefs.IdRefs="CxnDef.19----6-----q--"
+				SymbolNum="ST_BPMN_END_EVENT"
+				LastUpdated="10:22:03.000;05/16/2014">
+				<GUID>0e486807-dce3-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="End event"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_EVENT_DEFINITION">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_NONE_1</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:03.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:02.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.4f----4-----p--"
+				TypeNum="OT_EVT"
+				SymbolNum="ST_BPMN_TIMER_START_EVENT">
+				<GUID>45be7f90-9e0e-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_EVENT_DEFINITION">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_EV_TYPE_TIMER</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="this is me mahmoud starting"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">11:17:48.000;02/25/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">09:21:53.000;02/27/2014</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.56----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3u----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.57----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3o----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.51----4-----q--"
+					CxnDef.Type="CT_ACTIV_1"
+					ToObjDef.IdRef="ObjDef.33----4-----p--">
+					<AttrDef AttrDef.Type="AT_BPMN_TEXT_ANNOTATION_1">
+						<AttrValue LocaleId="&LocaleId.USen;">
+							<StyledElement>
+								<Paragraph Alignment="UNDEFINED" Indent="0"/>
+									<StyledElement>
+										<PlainText TextValue="time start: 12:00"/>
+									</StyledElement>
+									<StyledElement>
+										<LineBreak/>
+									</StyledElement>
+									<StyledElement>
+										<PlainText TextValue="time finish: 14:00"/>
+									</StyledElement>
+									<StyledElement>
+										<LineBreak/>
+									</StyledElement>
+									<StyledElement>
+										<PlainText TextValue="Done by: ERP "/>
+									</StyledElement>
+							</StyledElement>
+						</AttrValue>
+					</AttrDef>
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.9a----4-----p--"
+				TypeNum="OT_BPMN_ANNOTATION"
+				SymbolNum="ST_BPMN_ANNOTATION_1"
+				LastUpdated="13:24:01.000;05/15/2014">
+				<GUID>3445e5bd-dc2a-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Container/>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="duration:1512"/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="system: ERP "/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="system: Application Server"/>
+										</StyledElement>
+								</StyledElement>
+								<StyledElement>
+									<Paragraph Alignment="UNDEFINED" Indent="0"/>
+										<StyledElement>
+											<PlainText TextValue="priority: 1 "/>
+										</StyledElement>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.9g----4-----q--"
+					CxnDef.Type="CT_BPMN_IS_ASSOCIATED"
+					ToObjDef.IdRef="ObjDef.8c----4-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.40----4-----p--"
+				TypeNum="OT_FUNC"
+				ToCxnDefs.IdRefs="CxnDef.55----4-----q-- CxnDef.7v----4-----q--"
+				SymbolNum="ST_BPMN_SUBPROCESS">
+				<GUID>34ff6590-b662-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_BPMN_SUBPROCESS_TYPE">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_SUB_PROCESS</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">10:18:10.000;03/28/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_ACTIVITY_TYPE">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_SUB_PROCESS</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="purchase"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">10:19:10.000;03/28/2014</AttrValue>
+				</AttrDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.8c----4-----p--"
+				TypeNum="OT_FUNC"
+				ToCxnDefs.IdRefs=" CxnDef.9g----4-----q--  CxnDef.8n----4-----q--"
+				SymbolNum="ST_BPMN_TASK"
+				LastUpdated="12:53:28.000;05/15/2014">
+				<GUID>3445e5a4-dc2a-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_BPMN_ACTIVITY_TYPE">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_TASK</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_TASK_TYPE_2">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_TASK_TYPE_ABSTRACT</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">12:53:28.000;05/15/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">12:37:09.000;05/15/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="get the quantity"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.8i----4-----q--"
+					CxnDef.Type="CT_BELONGS_TO_1"
+					ToObjDef.IdRef="ObjDef.3u----4-----p--">
+				</CxnDef>
+				<CxnDef CxnDef.ID="CxnDef.n-----5-----q--"
+					CxnDef.Type="CT_IS_PREDEC_OF_1"
+					ToObjDef.IdRef="ObjDef.c-----5-----p--">
+				</CxnDef>
+			</ObjDef>
+			<ObjDef ObjDef.ID="ObjDef.s-----6-----p--"
+				TypeNum="OT_FUNC"
+				ToCxnDefs.IdRefs="CxnDef.1f----6-----q-- CxnDef.1b----6-----q-- "
+				SymbolNum="ST_BPMN_TASK"
+				LastUpdated="10:22:03.000;05/16/2014">
+				<GUID>0e486809-dce3-11e3-12bb-0c8bfd289c54</GUID>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:03.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:02.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_ACTIVITY_TYPE">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_TASK</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="purchase order issuing"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_BPMN_TASK_TYPE_2">
+					<AttrValue LocaleId="&LocaleId.USen;">AVT_BPMN_TASK_TYPE_ABSTRACT</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<CxnDef CxnDef.ID="CxnDef.19----6-----q--"
+					CxnDef.Type="CT_CRT_1"
+					ToObjDef.IdRef="ObjDef.k-----6-----p--">
+				</CxnDef>
+			</ObjDef>
+			<Model Model.ID="Model.0-----6-----u--"
+				Model.Type="MT_BPMN_PROCESS_DIAGRAM"				LastUpdated="10:22:03.000;05/16/2014"
+>
+				<Flag>4c0</Flag>
+				<GUID>b54bfdb0-dce3-11e3-12bb-0c8bfd289c54</GUID>
+				<TemplateGUID>92c97300-0cd4-11df-7e6d-e17dd807cbd6</TemplateGUID>
+				<Lane Lane.Type="LT_DEFAULT"
+					Orientation="VERTICAL"
+					StartBorder="0"
+					EndBorder="50000">
+					<AttrDef AttrDef.Type="AT_NAME">
+						<AttrValue LocaleId="&LocaleId.USen;">
+							<StyledElement>
+								<Paragraph Alignment="UNDEFINED" Indent="0"/>
+									<StyledElement>
+										<PlainText TextValue="."/>
+									</StyledElement>
+							</StyledElement>
+						</AttrValue>
+					</AttrDef>
+				</Lane>
+				<Lane Lane.Type="LT_DEFAULT"
+					Orientation="HORIZONTAL"
+					StartBorder="0"
+					EndBorder="50000">
+					<AttrDef AttrDef.Type="AT_NAME">
+						<AttrValue LocaleId="&LocaleId.USen;">
+							<StyledElement>
+								<Paragraph Alignment="UNDEFINED" Indent="0"/>
+									<StyledElement>
+										<PlainText TextValue="."/>
+									</StyledElement>
+							</StyledElement>
+						</AttrValue>
+					</AttrDef>
+				</Lane>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="purchase1"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:03.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">10:20:30.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<ObjOcc ObjOcc.ID="ObjOcc.g-----6-----x--"
+					ObjDef.IdRef="ObjDef.b-----6-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1c----6-----y--"
+					SymbolNum="ST_BPMN_START_EVENT"
+					Shadow="YES"
+>
+					<Position Pos.X="500" Pos.Y="400"/>
+					<Size Size.dX="100" Size.dY="100"/>
+					<ExternalGUID>0e486806-dce3-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1c----6-----y--"
+						CxnDef.IdRef="CxnDef.1b----6-----q--"
+						ToObjOcc.IdRef="ObjOcc.10----6-----x--"
+>
+						<Position Pos.X="600" Pos.Y="450"/>
+						<Position Pos.X="963" Pos.Y="450"/>
+						<AttrOcc AttrTypeNum="AT_BPMN_CONDITION_EXPRESSION"
+							Port="N"
+							OrderNum="0"
+							SymbolFlag="TEXT"
+							FontSS.IdRef="FontSS.7-----4-----c--"
+							OffsetX="0"
+							OffsetY="0"
+							Rotation="0"
+>
+							<Size Size.dX="0" Size.dY="0"/>
+						</AttrOcc>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="S"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.10----6-----x--"
+					ObjDef.IdRef="ObjDef.s-----6-----p--"
+					ToCxnOccs.IdRefs="  CxnOcc.1a----6-----y--"
+					SymbolNum="ST_BPMN_TASK"
+					Shadow="YES"
+>
+					<Position Pos.X="963" Pos.Y="334"/>
+					<Size Size.dX="375" Size.dY="232"/>
+					<ExternalGUID>0e48680a-dce3-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1a----6-----y--"
+						CxnDef.IdRef="CxnDef.19----6-----q--"
+						ToObjOcc.IdRef="ObjOcc.q-----6-----x--"
+>
+						<Position Pos.X="1338" Pos.Y="450"/>
+						<Position Pos.X="1700" Pos.Y="450"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="CENTER"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.17----6-----x--"
+					ObjDef.IdRef="ObjDef.12----6-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1g----6-----y--"
+					SymbolNum="ST_BPMN_ANNOTATION_1"
+>
+					<Position Pos.X="1015" Pos.Y="688"/>
+					<Size Size.dX="370" Size.dY="225"/>
+					<ExternalGUID>0e48680e-dce3-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1g----6-----y--"
+						CxnDef.IdRef="CxnDef.1f----6-----q--"
+						ToObjOcc.IdRef="ObjOcc.10----6-----x--"
+						Diagonal="YES"
+>
+						<Position Pos.X="1100" Pos.Y="688"/>
+						<Position Pos.X="1150" Pos.Y="566"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="CENTER"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.q-----6-----x--"
+					ObjDef.IdRef="ObjDef.k-----6-----p--"
+					SymbolNum="ST_BPMN_END_EVENT"
+					Shadow="YES"
+>
+					<Position Pos.X="1700" Pos.Y="400"/>
+					<Size Size.dX="100" Size.dY="100"/>
+					<ExternalGUID>0e486808-dce3-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="S"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+			</Model>
+			<Model Model.ID="Model.2-----5-----u--"
+				Model.Type="MT_BPMN_PROCESS_DIAGRAM"				LastUpdated="10:22:29.000;05/16/2014"
+>
+				<Flag>4c0</Flag>
+				<GUID>0cc08c50-dcdf-11e3-12bb-0c8bfd289c54</GUID>
+				<TemplateGUID>92c97300-0cd4-11df-7e6d-e17dd807cbd6</TemplateGUID>
+				<Lane Lane.Type="LT_DEFAULT"
+					Orientation="VERTICAL"
+					StartBorder="0"
+					EndBorder="50000">
+					<AttrDef AttrDef.Type="AT_NAME">
+						<AttrValue LocaleId="&LocaleId.USen;">
+							<StyledElement>
+								<Paragraph Alignment="UNDEFINED" Indent="0"/>
+									<StyledElement>
+										<PlainText TextValue="."/>
+									</StyledElement>
+							</StyledElement>
+						</AttrValue>
+					</AttrDef>
+				</Lane>
+				<Lane Lane.Type="LT_DEFAULT"
+					Orientation="HORIZONTAL"
+					StartBorder="0"
+					EndBorder="50000">
+					<AttrDef AttrDef.Type="AT_NAME">
+						<AttrValue LocaleId="&LocaleId.USen;">
+							<StyledElement>
+								<Paragraph Alignment="UNDEFINED" Indent="0"/>
+									<StyledElement>
+										<PlainText TextValue="."/>
+									</StyledElement>
+							</StyledElement>
+						</AttrValue>
+					</AttrDef>
+				</Lane>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="trial"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LUSER">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_LAST_CHNG_2">
+					<AttrValue LocaleId="&LocaleId.USen;">10:22:29.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREAT_TIME_STMP">
+					<AttrValue LocaleId="&LocaleId.USen;">09:47:10.000;05/16/2014</AttrValue>
+				</AttrDef>
+				<AttrDef AttrDef.Type="AT_CREATOR">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="system"/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+				<ObjOcc ObjOcc.ID="ObjOcc.w-----5-----x--"
+					ObjDef.IdRef="ObjDef.3o----4-----p--"
+					SymbolNum="ST_BPMN_LANE_1"
+					EmbeddingContainer="YES"
+>
+					<Position Pos.X="1324" Pos.Y="275"/>
+					<Size Size.dX="4435" Size.dY="2150"/>
+					<ExternalGUID>c264e764-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="PORT_FREE"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.5g----4-----c--"
+						OffsetX="-2142"
+						OffsetY="0"
+						Rotation="270"
+>
+						<Size Size.dX="2150" Size.dY="150"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.1c----5-----x--"
+					ObjDef.IdRef="ObjDef.9a----4-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1d----5-----y--"
+					SymbolNum="ST_BPMN_ANNOTATION_1"
+>
+					<Position Pos.X="5389" Pos.Y="663"/>
+					<Size Size.dX="370" Size.dY="225"/>
+					<ExternalGUID>c264e75b-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1d----5-----y--"
+						CxnDef.IdRef="CxnDef.9g----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.13----5-----x--"
+						Diagonal="YES"
+>
+						<Position Pos.X="5389" Pos.Y="775"/>
+						<Position Pos.X="5212" Pos.Y="575"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="CENTER"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.1i----6-----x--"
+					ObjDef.IdRef="ObjDef.c-----5-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1j----6-----y--  CxnOcc.1m----6-----y-- "
+					SymbolNum="ST_BPMN_SUBPROCESS"
+					Shadow="YES"
+>
+					<Position Pos.X="2774" Pos.Y="1161"/>
+					<Size Size.dX="1350" Size.dY="778"/>
+					<ExternalGUID>0e486804-dce3-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1j----6-----y--"
+						CxnDef.IdRef="CxnDef.1k----5-----q--"
+						ToObjOcc.IdRef="ObjOcc.18----5-----x--"
+>
+						<Position Pos.X="4124" Pos.Y="1550"/>
+						<Position Pos.X="4250" Pos.Y="1550"/>
+						<Position Pos.X="4250" Pos.Y="1750"/>
+						<Position Pos.X="4827" Pos.Y="1750"/>
+					</CxnOcc>
+					<CxnOcc CxnOcc.ID="CxnOcc.1m----6-----y--"
+						CxnDef.IdRef="CxnDef.y-----5-----q--"
+						ToObjOcc.IdRef="ObjOcc.v-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="3474" Pos.Y="1161"/>
+						<Position Pos.X="3474" Pos.Y="1025"/>
+						<Position Pos.X="3617" Pos.Y="1025"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="UPPER_MIDDLE"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.13----5-----x--"
+					ObjDef.IdRef="ObjDef.8c----4-----p--"
+					ToCxnOccs.IdRefs="  CxnOcc.1k----6-----y-- CxnOcc.1a----5-----y--"
+					SymbolNum="ST_BPMN_TASK"
+					Shadow="YES"
+>
+					<Position Pos.X="4837" Pos.Y="459"/>
+					<Size Size.dX="375" Size.dY="232"/>
+					<ExternalGUID>c264e761-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1k----6-----y--"
+						CxnDef.IdRef="CxnDef.n-----5-----q--"
+						ToObjOcc.IdRef="ObjOcc.1i----6-----x--"
+>
+						<Position Pos.X="4837" Pos.Y="600"/>
+						<Position Pos.X="4250" Pos.Y="600"/>
+						<Position Pos.X="4250" Pos.Y="1224"/>
+						<Position Pos.X="4122" Pos.Y="1224"/>
+					</CxnOcc>
+					<CxnOcc CxnOcc.ID="CxnOcc.1a----5-----y--"
+						CxnDef.IdRef="CxnDef.8i----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.p-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="5025" Pos.Y="459"/>
+						<Position Pos.X="4431" Pos.Y="459"/>
+						<Position Pos.X="4431" Pos.Y="275"/>
+						<Position Pos.X="3387" Pos.Y="275"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="CENTER"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.1g----5-----x--"
+					ObjDef.IdRef="ObjDef.4m----4-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1h----5-----y--"
+					SymbolNum="ST_BPMN_ANNOTATION_1"
+>
+					<Position Pos.X="2439" Pos.Y="763"/>
+					<Size Size.dX="370" Size.dY="225"/>
+					<ExternalGUID>c264e75e-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1h----5-----y--"
+						CxnDef.IdRef="CxnDef.5e----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.15----5-----x--"
+						Diagonal="YES"
+>
+						<Position Pos.X="2524" Pos.Y="763"/>
+						<Position Pos.X="3437" Pos.Y="582"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="CENTER"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.5g----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.p-----5-----x--"
+					ObjDef.IdRef="ObjDef.3u----4-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1f----5-----y--    "
+					SymbolNum="ST_BPMN_LANE_1"
+					EmbeddingContainer="YES"
+>
+					<Position Pos.X="1474" Pos.Y="275"/>
+					<Size Size.dX="4285" Size.dY="750"/>
+					<ExternalGUID>c264e763-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1f----5-----y--"
+						CxnDef.IdRef="CxnDef.5f----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.w-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="5759" Pos.Y="991"/>
+						<Position Pos.X="5792" Pos.Y="991"/>
+						<Position Pos.X="5792" Pos.Y="242"/>
+						<Position Pos.X="4280" Pos.Y="242"/>
+						<Position Pos.X="4280" Pos.Y="275"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="PORT_FREE"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.5g----4-----c--"
+						OffsetX="-2067"
+						OffsetY="0"
+						Rotation="270"
+>
+						<Size Size.dX="750" Size.dY="150"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.o-----5-----x--"
+					ObjDef.IdRef="ObjDef.4f----4-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.16----5-----y-- CxnOcc.q-----5-----y--"
+					SymbolNum="ST_BPMN_TIMER_START_EVENT"
+					Shadow="YES"
+>
+					<Position Pos.X="2324" Pos.Y="518"/>
+					<Size Size.dX="100" Size.dY="100"/>
+					<ExternalGUID>c264e760-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.16----5-----y--"
+						CxnDef.IdRef="CxnDef.51----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.15----5-----x--"
+>
+						<Position Pos.X="2424" Pos.Y="568"/>
+						<Position Pos.X="3437" Pos.Y="568"/>
+						<AttrOcc AttrTypeNum="AT_BPMN_CONDITION_EXPRESSION"
+							Port="N"
+							OrderNum="0"
+							SymbolFlag="TEXT"
+							FontSS.IdRef="FontSS.7-----4-----c--"
+							OffsetX="0"
+							OffsetY="0"
+							Rotation="0"
+>
+							<Size Size.dX="0" Size.dY="0"/>
+						</AttrOcc>
+					</CxnOcc>
+					<CxnOcc CxnOcc.ID="CxnOcc.q-----5-----y--"
+						CxnDef.IdRef="CxnDef.56----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.p-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="2395" Pos.Y="613"/>
+						<Position Pos.X="2830" Pos.Y="613"/>
+						<Position Pos.X="2830" Pos.Y="275"/>
+						<Position Pos.X="3387" Pos.Y="275"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="S"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.15----5-----x--"
+					ObjDef.IdRef="ObjDef.33----4-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1i----5-----y--   CxnOcc.1b----5-----y--"
+					SymbolNum="ST_BPMN_USER_TASK"
+					Shadow="YES"
+>
+					<Position Pos.X="3437" Pos.Y="452"/>
+					<Size Size.dX="375" Size.dY="232"/>
+					<ExternalGUID>c264e75d-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1i----5-----y--"
+						CxnDef.IdRef="CxnDef.5d----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.p-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="3788" Pos.Y="682"/>
+						<Position Pos.X="3581" Pos.Y="682"/>
+						<Position Pos.X="3581" Pos.Y="275"/>
+						<Position Pos.X="3387" Pos.Y="275"/>
+					</CxnOcc>
+					<CxnOcc CxnOcc.ID="CxnOcc.1b----5-----y--"
+						CxnDef.IdRef="CxnDef.8v----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.s-----5-----x--"
+>
+						<Position Pos.X="3812" Pos.Y="575"/>
+						<Position Pos.X="4445" Pos.Y="575"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="CENTER"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.5g----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.s-----5-----x--"
+					ObjDef.IdRef="ObjDef.7w----4-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.1e----5-----y-- CxnOcc.1n----6-----y-- CxnOcc.14----5-----y-- "
+					SymbolNum="ST_BPMN_RULE_XOR_3"
+					Shadow="YES"
+>
+					<Position Pos.X="4445" Pos.Y="496"/>
+					<Size Size.dX="159" Size.dY="159"/>
+					<ExternalGUID>c264e762-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.1e----5-----y--"
+						CxnDef.IdRef="CxnDef.8k----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.p-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="4564" Pos.Y="615"/>
+						<Position Pos.X="4181" Pos.Y="615"/>
+						<Position Pos.X="4181" Pos.Y="275"/>
+						<Position Pos.X="3387" Pos.Y="275"/>
+					</CxnOcc>
+					<CxnOcc CxnOcc.ID="CxnOcc.1n----6-----y--"
+						CxnDef.IdRef="CxnDef.i-----5-----q--"
+						ToObjOcc.IdRef="ObjOcc.1i----6-----x--"
+>
+						<Position Pos.X="4524" Pos.Y="655"/>
+						<Position Pos.X="4524" Pos.Y="1050"/>
+						<Position Pos.X="3451" Pos.Y="1050"/>
+						<Position Pos.X="3451" Pos.Y="1161"/>
+						<AttrOcc AttrTypeNum="AT_PROB"
+							Port="N"
+							OrderNum="1"
+							SymbolFlag="TEXT"
+							FontSS.IdRef="FontSS.7-----4-----c--"
+							OffsetX="0"
+							OffsetY="0"
+							Rotation="0"
+>
+							<Size Size.dX="0" Size.dY="0"/>
+						</AttrOcc>
+						<AttrOcc AttrTypeNum="AT_BPMN_CONDITION_EXPRESSION"
+							Port="N"
+							OrderNum="0"
+							SymbolFlag="TEXT"
+							FontSS.IdRef="FontSS.7-----4-----c--"
+							OffsetX="0"
+							OffsetY="0"
+							Rotation="0"
+>
+							<Size Size.dX="0" Size.dY="0"/>
+						</AttrOcc>
+					</CxnOcc>
+					<CxnOcc CxnOcc.ID="CxnOcc.14----5-----y--"
+						CxnDef.IdRef="CxnDef.8n----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.13----5-----x--"
+>
+						<Position Pos.X="4604" Pos.Y="575"/>
+						<Position Pos.X="4837" Pos.Y="575"/>
+						<AttrOcc AttrTypeNum="AT_PROB"
+							Port="N"
+							OrderNum="1"
+							SymbolFlag="TEXT"
+							FontSS.IdRef="FontSS.7-----4-----c--"
+							OffsetX="0"
+							OffsetY="0"
+							Rotation="0"
+>
+							<Size Size.dX="0" Size.dY="0"/>
+						</AttrOcc>
+						<AttrOcc AttrTypeNum="AT_BPMN_CONDITION_EXPRESSION"
+							Port="N"
+							OrderNum="0"
+							SymbolFlag="TEXT"
+							FontSS.IdRef="FontSS.7-----4-----c--"
+							OffsetX="0"
+							OffsetY="0"
+							Rotation="0"
+>
+							<Size Size.dX="0" Size.dY="0"/>
+						</AttrOcc>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="S"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.v-----5-----x--"
+					ObjDef.IdRef="ObjDef.2q----4-----p--"
+					ToCxnOccs.IdRefs="CxnOcc.x-----5-----y--  "
+					SymbolNum="ST_BPMN_LANE_1"
+					EmbeddingContainer="YES"
+>
+					<Position Pos.X="1474" Pos.Y="1025"/>
+					<Size Size.dX="4285" Size.dY="1400"/>
+					<ExternalGUID>c264e75f-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.x-----5-----y--"
+						CxnDef.IdRef="CxnDef.5a----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.w-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="1474" Pos.Y="1025"/>
+						<Position Pos.X="5792" Pos.Y="1025"/>
+						<Position Pos.X="5792" Pos.Y="242"/>
+						<Position Pos.X="4280" Pos.Y="242"/>
+						<Position Pos.X="4280" Pos.Y="275"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="PORT_FREE"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.5g----4-----c--"
+						OffsetX="-2067"
+						OffsetY="0"
+						Rotation="270"
+>
+						<Size Size.dX="1400" Size.dY="150"/>
+					</AttrOcc>
+				</ObjOcc>
+				<ObjOcc ObjOcc.ID="ObjOcc.18----5-----x--"
+					ObjDef.IdRef="ObjDef.3b----4-----p--"
+					ToCxnOccs.IdRefs=" CxnOcc.19----5-----y--"
+					SymbolNum="ST_BPMN_END_EVENT"
+					Shadow="YES"
+>
+					<Position Pos.X="4824" Pos.Y="1682"/>
+					<Size Size.dX="100" Size.dY="100"/>
+					<ExternalGUID>c264e75c-dcde-11e3-12bb-0c8bfd289c54</ExternalGUID>
+
+					<CxnOcc CxnOcc.ID="CxnOcc.19----5-----y--"
+						CxnDef.IdRef="CxnDef.5b----4-----q--"
+						ToObjOcc.IdRef="ObjOcc.v-----5-----x--"
+						Visible="NO"
+						Embedding="YES"
+>
+						<Position Pos.X="4884" Pos.Y="1683"/>
+						<Position Pos.X="4355" Pos.Y="1683"/>
+						<Position Pos.X="4355" Pos.Y="1025"/>
+						<Position Pos.X="3387" Pos.Y="1025"/>
+					</CxnOcc>
+					<AttrOcc AttrTypeNum="AT_NAME"
+						Port="S"
+						OrderNum="0"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.7-----4-----c--"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</ObjOcc>
+				<Union
+					ObjOccs.IdRefs="ObjOcc.w-----5-----x-- "
+					Flags="1" >
+					<Union
+						ObjOccs.IdRefs="ObjOcc.1i----6-----x-- ObjOcc.18----5-----x-- ObjOcc.v-----5-----x-- "
+						Flags="1" >
+					</Union>
+					<Union
+						ObjOccs.IdRefs="ObjOcc.13----5-----x-- ObjOcc.p-----5-----x-- ObjOcc.o-----5-----x-- ObjOcc.15----5-----x-- ObjOcc.s-----5-----x-- "
+						Flags="1" >
+					</Union>
+				</Union>
+			</Model>
+		</Group>
+	</Group>
+</AML>
